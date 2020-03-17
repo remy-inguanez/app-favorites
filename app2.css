@@ -1,0 +1,64 @@
+
+h1 {
+    color: #000000;
+   text-align: center;
+   font-size: 60px;
+   width: 800px;
+   height: 100px;
+   padding: 15px;
+   border-radius: 20px;
+   background-color: #FFFC00;
+   margin-left: 200px;
+}
+
+body {
+  background-color: rgb(221, 218, 218);
+  font-family: 'Baloo Chettan 2', cursive;
+}
+
+.float {
+	float: left;
+	margin-left: 60px;
+	padding: 2px;
+	margin-top: -92px;
+  animation-iteration-count: infinite;
+  animation: rotation 6s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.float2 {
+	float: right;
+	margin-right: 80px;
+	padding: 2px;
+	margin-top: -92px;
+  animation-iteration-count: infinite;
+  animation: rotation 6s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+	
+
+p {
+	width: 800px;
+    height: 250px;
+    padding: 15px;
+    border-radius: 20px;
+	background-color: #FFFC00;
+	color: #000000;
+	font-size: 18px;
+	text-align: center;
+	margin-left: 200px;
+	
+}

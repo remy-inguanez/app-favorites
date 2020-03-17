@@ -1,0 +1,100 @@
+
+body {
+font-family: Monospace;	
+background-color:#99ff99;
+color: #5c00e6;
+}
+.names {
+  background-color: #5c00e6;
+  color: #99ff99;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+}
+.instagram {
+	float: right;
+	margin-top: -115px;
+	margin-right: 20px;
+	animation: translation 5s linear infinite;
+}
+
+@keyframes translation {
+  0% {
+    transform: perspective(100px) translate3d(0px, 0px, 0px);
+  }
+  25%{
+    transform: perspective(100px) translate3d(0px, 0px, -100px)
+  }
+  50% {
+    transform: perspective(100px) translate3d(0px, 0px, 0px);
+  }
+  75% {
+    transform: perspective(100px) translate3d(0px, 0px, -30px);
+  }
+  100% {
+    transform: perspective(100px) translate3d(0px, 0px, 0px);
+  }
+}
+.snap {
+	float: right;
+	margin-top: -115px;
+	margin-right: 20px;
+	animation: translation 5s linear infinite;
+}
+
+@keyframes translation {
+  0% {
+    transform: perspective(100px) translate3d(0px, 0px, 0px);
+  }
+  25%{
+    transform: perspective(100px) translate3d(0px, 0px, -100px)
+  }
+  50% {
+    transform: perspective(100px) translate3d(0px, 0px, 0px);
+  }
+  75% {
+    transform: perspective(100px) translate3d(0px, 0px, -30px);
+  }
+  100% {
+    transform: perspective(100px) translate3d(0px, 0px, 0px);
+  }
+}
+
+.pinterest {
+	float: right;
+	margin-top: -115px;
+	margin-right: 20px;
+	animation: translation 5s linear infinite;
+}
+@keyframes translation {
+  0% {
+    transform: perspective(100px) translate3d(0px, 0px, 0px);
+  }
+  25%{
+    transform: perspective(100px) translate3d(0px, 0px, -100px)
+  }
+  50% {
+    transform: perspective(100px) translate3d(0px, 0px, 0px);
+  }
+  75% {
+    transform: perspective(100px) translate3d(0px, 0px, -30px);
+  }
+  100% {
+    transform: perspective(100px) translate3d(0px, 0px, 0px);
+  }
+}
+
+.insta:hover {
+  color: orangered;
+  }
+.snapc:hover {
+  color: yellow;
+  }
+.pint:hover {
+  color: darkred;
+  }
+
+a {
+  color: white;
+  text-decoration: none;
+}

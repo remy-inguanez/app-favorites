@@ -1,0 +1,48 @@
+
+h1 {
+	font-family: Pacifico;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 80px;
+}
+
+p {
+	font-family: Pacifico;
+	margin-top: 20px;
+	margin-left: 110px;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	width: 1000px;
+    height: 160px;
+	background-image: linear-gradient(#4c68d7, #8a3ab9, #bc2a8d, #cd486b, #fccc63);
+	border-radius: 20px;
+	padding: 10px;
+	
+}
+.Instagram {
+float: right;
+margin-right: 200px;
+margin-top: -190px;
+
+}
+
+.Instagram2 {
+float: left;
+margin-left: 200px;
+margin-top: -190px;
+
+}
+
+.photo1 {
+	float: left;
+	margin-left: 260px;
+	margin-top: 80px;
+}
+
+.photo2 {
+	
+	float: right;
+	margin-right: 260px;
+	margin-top: 80px;
+}
